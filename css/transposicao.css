@@ -1,0 +1,62 @@
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+body {
+    background: rgb(255, 231, 158);
+    background: radial-gradient(circle, rgba(255, 231, 158, 1) 0%, rgba(244, 237, 215, 1) 100%);
+}
+
+.cabecalho {
+    color: #660220;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48;
+    color: #40246D;
+}
+
+.card-header py-3 {
+    background-color: red;
+
+}
+
+.letra {
+    font-family: 'Lobster', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Prompt', sans-serif;
+color: white;
+}
+
+button4 {
+    border: none;
+    outline: none;
+    background-color: #40246D;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 5px;
+    transition: all ease 0.1s;
+    box-shadow: 0px 5px 0px 0px #2e1a4d;
+  }
+  
+  button4:active {
+    transform: translateY(5px);
+    box-shadow: 0px 0px 0px 0px #a29bfe;
+  }
